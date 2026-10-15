@@ -117,7 +117,8 @@
     "total": 45000,
     "id": "494075",
     "createdAt": "2026-10-15T15:13:24.940Z",
-    "status": "ordered"
+    "status": "cancelled",
+    "cancelReason": "Hết món"
   },
   {
     "table": "1",
@@ -138,5 +139,52 @@
     "id": "012396",
     "createdAt": "2026-10-15T15:16:20.123Z",
     "status": "completed"
+  },
+  {
+    "table": null,
+    "name": "Tiến Tài Nguyễn",
+    "phone": "0901234567",
+    "address": "123 Lê Lợi, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+    "note": "",
+    "payment": "cod",
+    "transferNote": "FL739670",
+    "items": [
+      {
+        "foodId": "pho-bo",
+        "quantity": 2,
+        "unitPrice": 45000
+      }
+    ],
+    "total": 90000,
+    "id": "379278",
+    "createdAt": "2026-10-15T16:45:43.847Z",
+    "status": "cancelled",
+    "cancelReason": "Hết món"
+  },
+  {
+    "table": null,
+    "name": "Tiến Tài Nguyễn",
+    "phone": "0901234567",
+    "address": "123 Lê Lợi, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+    "note": "",
+    "payment": "cod",
+    "transferNote": "FL001550",
+    "items": [
+      {
+        "foodId": "pho-bo",
+        "quantity": 1,
+        "unitPrice": 45000
+      },
+      {
+        "foodId": "bun-cha",
+        "quantity": 1,
+        "unitPrice": 50000
+      }
+    ],
+    "total": 95000,
+    "id": "265257",
+    "createdAt": "2026-10-15T16:50:04.161Z",
+    "status": "cancelled",
+    "cancelReason": "Quán sắp đóng cửa"
   }
 ]

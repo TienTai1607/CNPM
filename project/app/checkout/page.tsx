@@ -84,7 +84,6 @@ const TEXT = {
     dineIn: "Gọi món tại bàn",
     tableNo: "Bàn",
     dineInDesc: "Món sẽ được mang ra tận bàn của bạn",
-    notDineIn: "Không ngồi tại quán?",
     guestInfo: "Thông tin người gọi món (không bắt buộc)",
     codTable: "Tiền mặt tại quầy",
     codTableDesc: "Thanh toán tại quầy hoặc cho nhân viên",
@@ -135,7 +134,6 @@ const TEXT = {
     dineIn: "Dine-in order",
     tableNo: "Table",
     dineInDesc: "Your food will be served to your table",
-    notDineIn: "Not dining in?",
     guestInfo: "Your details (optional)",
     codTable: "Cash at the counter",
     codTableDesc: "Pay at the counter or to our staff",
@@ -154,7 +152,7 @@ const METHODS: { key: Method; icon: LucideIcon; label: "cod" | "qr" | "bank" | "
 export default function CheckoutPage() {
   const { lang, cart, cartTotal, user, hydrated, placeOrder, clearCart } = useApp()
   const t = lang === "vi" ? TEXT.vi : TEXT.en
-  const [table, setTable] = useTable()
+  const [table] = useTable()
  
   const [name, setName] = useState("")
   const [phone, setPhone] = useState("")
@@ -345,13 +343,6 @@ export default function CheckoutPage() {
                   </p>
                   <p className="text-xs text-muted-foreground">{t.dineInDesc}</p>
                 </div>
-                <button
-                  type="button"
-                  onClick={() => setTable(null)}
-                  className="shrink-0 self-start rounded-full px-2.5 py-1 text-xs font-semibold text-muted-foreground transition-colors hover:bg-background/60"
-                >
-                  {t.notDineIn}
-                </button>
               </section>
             )}
 

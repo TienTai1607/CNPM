@@ -85,12 +85,6 @@ function MenuContent() {
               {lang === "vi" ? "Món sẽ được mang ra tận bàn" : "Your food will be served to your table"}
             </p>
           </div>
-          <button
-            onClick={() => setTable(null)}
-            className="shrink-0 rounded-full px-2.5 py-1 text-xs font-semibold text-muted-foreground transition-colors hover:bg-background/60"
-          >
-            {lang === "vi" ? "Không ngồi tại quán" : "Not dining in"}
-          </button>
         </div>
       )}
 
