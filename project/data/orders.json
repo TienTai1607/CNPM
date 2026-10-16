@@ -97,7 +97,8 @@
     "total": 45000,
     "id": "684585",
     "createdAt": "2026-10-15T15:11:36.845Z",
-    "status": "ordered"
+    "status": "cancelled",
+    "cancelReason": ""
   },
   {
     "table": "1",
@@ -186,5 +187,81 @@
     "createdAt": "2026-10-15T16:50:04.161Z",
     "status": "cancelled",
     "cancelReason": "Quán sắp đóng cửa"
+  },
+  {
+    "table": "3",
+    "name": "Trương Trí Trung",
+    "phone": "0123456789",
+    "address": "Bàn 3 · tại quán",
+    "note": "không hành",
+    "payment": "cod",
+    "transferNote": "FL383874B3",
+    "items": [
+      {
+        "foodId": "pho-bo",
+        "quantity": 1,
+        "unitPrice": 45000
+      },
+      {
+        "foodId": "bun-cha",
+        "quantity": 1,
+        "unitPrice": 50000
+      }
+    ],
+    "total": 95000,
+    "id": "327760",
+    "createdAt": "2026-10-16T00:10:02.740Z",
+    "status": "completed"
+  },
+  {
+    "table": "3",
+    "name": "Bàn 3",
+    "phone": "",
+    "address": "Bàn 3 · tại quán",
+    "note": "",
+    "payment": "cod",
+    "transferNote": "FL049174B3",
+    "items": [
+      {
+        "foodId": "pho-bo",
+        "quantity": 5,
+        "unitPrice": 45000
+      }
+    ],
+    "total": 225000,
+    "id": "158866",
+    "createdAt": "2026-10-16T00:37:34.310Z",
+    "status": "cancelled",
+    "cancelReason": ""
+  },
+  {
+    "table": "3",
+    "name": "Bàn 3",
+    "phone": "",
+    "address": "Bàn 3 · tại quán",
+    "note": "",
+    "payment": "qr",
+    "transferNote": "FL465010B3",
+    "items": [
+      {
+        "foodId": "ca-phe-sua-da",
+        "quantity": 5,
+        "unitPrice": 20000
+      },
+      {
+        "foodId": "tra-dao",
+        "quantity": 3,
+        "unitPrice": 30000
+      },
+      {
+        "foodId": "nuoc-mia",
+        "quantity": 2,
+        "unitPrice": 15000
+      }
+    ],
+    "total": 220000,
+    "id": "382128",
+    "createdAt": "2026-10-16T00:44:27.530Z",
+    "status": "ordered"
   }
 ]
